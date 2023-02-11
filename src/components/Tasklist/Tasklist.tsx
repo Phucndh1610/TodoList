@@ -18,7 +18,7 @@ export default function TaskList(props: taskListProps) {
   }
   return (
     <div>
-      <h2 className={style.title}>{doneTaskList ? `Done` : `Not Done`}</h2>
+      <h2 className={style.title}>{doneTaskList ? `Done` : `incomplete`}</h2>
       <div className={style.tasks}>
         {todos.map((todo) => (
           <div className={style.task} key={todo.id}>

@@ -6,14 +6,15 @@
     display: flex;
     gap: 10px;
     input {
-        height: 4rem;
+        height: 3rem;
         border-radius: 4px;
         flex-grow: 1;
+        padding: 5px;
     }
     button {
         flex-shrink: 0;
-        width: 4rem;
-        height: 4rem;
+        width: 3rem;
+        height: 3rem;
         border-radius: 0.7rem;
         display: flex;
         justify-content: center;
